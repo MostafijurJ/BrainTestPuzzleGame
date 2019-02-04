@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/loginname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="@string/title"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX=""
+        tools:layout_editor_absoluteY="" />
+
+    <TextView
+        android:id="@+id/Number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="93dp"
+        android:text=""
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text=""
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/Attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:hint="Put Your Answer.."
+        android:inputType="textPhonetic|number"
+        android:text=""
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignBottom="@+id/Attempt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginRight="214dp"
+        android:layout_marginBottom="-76dp"
+        android:text="SUBMIT"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/loginname"
+        android:layout_alignLeft="@+id/loginname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="210dp"
+        android:text=""
+        android:textColorHint="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/footer"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/skipbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignTop="@+id/Submit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:text="SKIP"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/scorebtn"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_alignTop="@+id/Submit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="SCORE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ratebtn"
+        android:layout_width="79dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/skipbtn"
+        android:background="@drawable/rate"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

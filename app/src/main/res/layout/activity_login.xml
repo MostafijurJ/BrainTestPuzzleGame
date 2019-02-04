@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:padding="20dp"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/loginname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/showscrbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Score"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:textStyle="bold" />
+</LinearLayout>
