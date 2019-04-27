@@ -19,7 +19,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         private  String Name;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef = database.getReference("Create path");
+    DatabaseReference myRef = database.getReference("Score");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
